@@ -43,7 +43,7 @@
       submit() {
         const auth = firebase.auth();
         auth.signInWithEmailAndPassword(this.email, this.password).then((response) => {
-          this.$router.push('/post')
+          this.$router.push('/home')
         }).catch(error => {
           alert(error.message)
         })

@@ -10,10 +10,6 @@ Vue.use(Router)
 const router = new Router({
   routes: [
     {
-      path:'*',
-      redirect: '/post'
-    },
-    {
       path: '/home',
       name: 'HelloWorld',
       component: HelloWorld,
